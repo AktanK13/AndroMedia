@@ -10,6 +10,7 @@ function Newsletter() {
     emailjs.sendForm('service_hohfs9f', 'template_r6ut4bk', form.current, 'H4zDm6D6dW5tkxgxX')
         .then((result) => {
           console.log(result.text);
+          form.current.value = ''
         }, (error) => {
           console.log(error.text);
         });
@@ -62,9 +63,6 @@ function Newsletter() {
                     <input type="email" name="email"  className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
                     <input type='submit' className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" value='send' onClick={sendEmail}/>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">7 days free trial. No credit card required.</p>
                 </form>
               </div>
 

@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-5xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The Andromedia Digital Agency</h2>
-            <p className="text-xl text-gray-600">
+            <h2 className="h2 mb-4 text-white">The Andromedia Digital Agency</h2>
+            <p className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-gray-600 via-yellow-100 to-gray-600">
               is one of the leading organizations in the field of providing information and communication services in various fields, with sufficient potential for a comprehensive solution to the problems of implementing information technologies, as well as facilitating the interaction of government agencies.
             </p>
           </div>

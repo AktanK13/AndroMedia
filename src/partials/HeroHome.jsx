@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import Modal from '../utils/Modal';
-
-import HeroImage from '../images/hero-image.png';
 
 function HeroHome() {
 
@@ -11,7 +8,7 @@ function HeroHome() {
     <section className="relative">
 
       {/* Illustration behind hero content */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none opacity-30 " aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
@@ -34,7 +31,7 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16 z-50" >
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Welcome to our web development and design  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">"Andromedia" agency</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-white " data-aos="zoom-y-out">Welcome to our web development and design  <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-yellow-100">"Andromedia" agency</span></h1>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
                 where we specialize in creating exceptional websites, designing intuitive user interfaces, and developing comprehensive UI kits. Our team of skilled developers and designers are passionate about delivering top-notch solutions that help businesses succeed online.

@@ -6,6 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        black: {
+          100: '#060809',
+        },
+        yellow : {
+          100: '#f7ec13'
+        },
         gray: {
           100: '#FBFBFB',
           200: '#EAEAEA',
@@ -45,7 +51,7 @@ module.exports = {
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.16)',
         default: '0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.03)',
         md: '0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
-        lg: '0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02)',
+        lg: '0 4px 30px rgba(0, 0, 0, 0.1)',
         xl: '0 20px 25px -5px rgba(0, 0, 0, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.02)',
         '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.15)',
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.04)',
