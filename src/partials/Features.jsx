@@ -32,20 +32,25 @@ function Features() {
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+          <div className="max-w-3xl mx-auto text-center pb-20 md:pb-16">
+            <h1 className="h2 mb-4">Andromedia Agency</h1>
+            <p className="text-xl text-gray-600">
+              Specializes in the development of websites, highly loaded service-oriented cross-platform software.
+            </p>
           </div>
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
 
+
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-              </div>
+                <p className="text-xl text-gray-600">
+                  Our team has developed and successfully implemented various automated intelligent systems in law enforcement agencies, agencies in charge of defense, emergency situations, the penal enforcement system, border control, national security, as well as the prosecutor's office.
+                </p>
+               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
@@ -54,8 +59,10 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    {/*<div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>*/}
+                    <div className="text-gray-600">
+                      When it comes to website development, we use the latest technologies and design trends to create responsive, user-friendly websites that deliver an exceptional user experience. Our team is experienced in developing custom solutions that meet the unique needs of each client, ensuring that their website stands out from the competition.
+                    </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +76,10 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    {/*<div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>*/}
+                    <div className="text-gray-600">
+                      In addition to website development, we also offer comprehensive UI/UX design services. Our team works closely with clients to understand their brand, target audience, and goals, creating intuitive user interfaces that are both visually appealing and easy to navigate. We also develop UI kits that can be used across multiple platforms, ensuring consistency and a seamless user experience.
+                    </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,8 +93,10 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    {/*<div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>*/}
+                    <div className="text-gray-600">
+                      At our agency, we're committed to delivering exceptional results that help our clients achieve their goals. Contact us today to learn more about our web development and design services and how we can help take your business to the next level.
+                    </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
