@@ -2,8 +2,19 @@ module.exports = {
   content: [
     './index.html',
     './src/**/*.{js,jsx,ts,tsx}',
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
+    screens: {
+      'sm': [
+        {'min': '300px', 'max': '668px'},
+      ],
+      'md': [
+        {'min': '668px'}
+      ],
+      'lg': '1100px',
+      'xl': '1400px',
+    },
     extend: {
       colors: {
         black: {
@@ -140,5 +151,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+    require('flowbite/plugin')
   ],
 };

@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import logo from '../images/andromedia-logo.png'
-function HeroHome() {
 
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
+function HeroHome() {
 
   return (
     <section className="relative">
